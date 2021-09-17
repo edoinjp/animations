@@ -32,12 +32,12 @@
 }
 @keyframes dragon {
   0% {
-    left: 600px;
+    left: 500px;
     bottom: 99px;
   }
 
   100% {
-    left: 1200px;
+    left: 1150px;
     bottom: 99px;
     transform: scaleX(-1);
   }
@@ -53,7 +53,7 @@
 
 @keyframes turtle1 {
   from {
-    left: 1150px;
+    left: 1000px;
   }
   to {
     left: 1400px;
