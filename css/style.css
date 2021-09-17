@@ -1,0 +1,153 @@
+.img1 {
+  width: 100%;
+  position: relative;
+}
+.turtle1 {
+  height: 80px;
+  left: 1150px;
+  top: 90px;
+  position: absolute;
+  animation: turtle1 5s infinite alternate;
+}
+.mario1 {
+  height: 90px;
+  bottom: 99px;
+  position: absolute;
+  animation: mario1 25s infinite;
+}
+.gift {
+  top: 77px;
+  left: 858px;
+  height: 80px;
+  position: absolute;
+  animation: gift 5s infinite alternate;
+}
+.dragon {
+  width: 90px;
+  height: 80px;
+  bottom: 99px;
+  left: 600px;
+  position: absolute;
+  animation: dragon 10s infinite alternate;
+}
+@keyframes dragon {
+  0% {
+    left: 600px;
+    bottom: 99px;
+  }
+
+  100% {
+    left: 1200px;
+    bottom: 99px;
+    transform: scaleX(-1);
+  }
+}
+@keyframes gift {
+  from {
+    transform: rotate(45deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes turtle1 {
+  from {
+    left: 1150px;
+  }
+  to {
+    left: 1400px;
+    transform: scaleX(-1);
+  }
+}
+
+@keyframes mario1 {
+  10% {
+    left: 0px;
+  }
+  15% {
+    left: 365px;
+  }
+  20% {
+    bottom: 99px;
+  }
+  35% {
+    bottom: 375px;
+  }
+  40% {
+    bottom: 375px;
+    left: 395px;
+  }
+  45% {
+    left: 430px;
+    bottom: 375px;
+  }
+  50% {
+    bottom: 375px;
+    left: 460px;
+  }
+  55% {
+    left: 530px;
+    bottom: 470px;
+  }
+  60% {
+    left: 700px;
+    bottom: 375px;
+  }
+  65% {
+    bottom: 375px;
+    left: 800px;
+  }
+  66% {
+    bottom: 375px;
+    left: 850px;
+  }
+  67% {
+    bottom: 530px;
+    left: 850px;
+  }
+  70% {
+    left: 900px;
+    bottom: 375px;
+  }
+  75% {
+    left: 970px;
+    bottom: 375px;
+  }
+  80% {
+    left: 1050px;
+    bottom: 375px;
+  }
+  85% {
+    left: 1050px;
+    bottom: 99px;
+  }
+  88% {
+    left: 1170px;
+    bottom: 99px;
+  }
+  90% {
+    left: 1170px;
+    bottom: 300px;
+  }
+  92% {
+    left: 1250px;
+    bottom: 240px;
+  }
+  93% {
+    left: 1330px;
+    bottom: 240px;
+  }
+  94% {
+    left: 1380px;
+    bottom: 240px;
+  }
+  95% {
+    left: 1430px;
+    bottom: 99px;
+  }
+  100% {
+    right: 0px;
+    bottom: 99px;
+  }
+}
