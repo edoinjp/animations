@@ -9,6 +9,7 @@
   position: absolute;
   animation: turtle1 5s infinite alternate;
 }
+
 .mario1 {
   height: 90px;
   bottom: 99px;
@@ -20,7 +21,7 @@
   left: 858px;
   height: 80px;
   position: absolute;
-  animation: gift 5s infinite alternate;
+  animation: gift 5s 16.5s infinite alternate;
 }
 .dragon {
   width: 90px;
